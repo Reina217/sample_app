@@ -1,0 +1,77 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 24px 0px;
+    position: fixed;
+    background-color: blue;
+    z-index: 2;
+    top: 0;
+}
+
+.header nav{
+  margin-left: 520px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin-left: 40px;
+}
+.header-list{
+  margin-left:100px;
+}
+
+.carousel-item img {
+  height: 580px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
