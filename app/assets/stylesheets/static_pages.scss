@@ -16,9 +16,10 @@ li {
     align-items: center;
     padding: 24px 0px;
     position: fixed;
-    background-color: blue;
-    z-index: 2;
+    background-color: #B5EAD7;
+    z-index: 20;
     top: 0;
+    color: white;
 }
 
 .header nav{
@@ -53,25 +54,136 @@ li {
 }
 
 .copy-container span {
-  color: #ff4a4a;
+  color: #FFDAC1;
 }
 
-.footer {
-  background-color: #2f5167;
-  color: #fff;
-  height: 120px;
-  padding: 40px;
+.menu {
+  font-size: 50px;
+  font-family: Monotype Corsiva;
 }
 
-.footer-logo {
+.menu-m {
+  background-color: #FFDAC1;
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+}
+
+.contents {
+  margin-top: 100px;
+}
+
+.contents p {
+  text-align: center;
+}
+
+.concept {
+  text-align: center;
+}
+
+.menu-c {
+   background-color: #FFDAC1;
+}
+
+.concept img {
+  display: inline-block;
+  width: 600px;
+  height: auto;
+  margin: 0px;
+}
+
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  display: inline-block;
+  width: 600px;
+  height: auto;
+  margin: 0px;
+}
+
+.menu-p {
+  background-color: #FFDAC1;
+}
+
+.media img {
+  height: 300px;
+  width: 500px;
+}
+
+.media-body {
+  margin: 50px 80px;
+}
+
+.recruit {
+  margin-top: 50px;
+  background-color: #FFDAC1;
+}
+
+.recruit p {
+  text-align: center;
+}
+
+ul.cp_list {
+	padding: 0.5em;
+	list-style: none;
+}
+ul.cp_list li {
+	position: relative;
+	padding: 0.5em 1em 0.5em 2.3em;
+	margin-bottom:5px;
+	border-bottom: 1px solid rgba(255,143,0,1);
+}
+ul.cp_list li:after,
+ul.cp_list li:before {
+	content:'';
+	position: absolute;
+	transform: rotate(45deg);
+}
+ul.cp_list li:before {
+	top: 0.7em;
+	left: 0.2em;
+	width: 12px;
+	height: 12px;
+	border:2px solid rgba(255,143,0,1);
+}
+ul.cp_list li:after {
+	top: 0.9em;
+	left: 0.7em;
+	width: 14px;
+	height: 14px;
+	background: rgba(255,143,0,0.5);
+	transform: rotate(60deg);
+}
+
+.card-deck img {
+  width: 400px;
+  height: 200px;
   float: left;
-  font-size: 32px;
+  margin: 40px 132px;
+  background-color: black;
+  display: inline-block;
+  display: inline;
+} 
+
+.carrer {
+  text-align: center;
 }
 
-.footer-list {
-  float: right;
+.p {
+  display: inline-block;
 }
 
-.footer-list li {
-  padding-bottom: 20px;
+.wapper {
+  min-height: 100vh;
+}
+.footer {
+  background-color: #E2F0CB;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 100px;
 }
